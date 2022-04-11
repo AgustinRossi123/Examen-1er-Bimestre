@@ -18,17 +18,17 @@ public class Ej_1 : MonoBehaviour
         {
 
         
-        if (moneda == "D")
+        if (moneda == "D" || moneda == "d")
         {
                 calculo = monto / 112;
                 Debug.Log("Su monto de " + monto + " pesos equivale a "+calculo+" en dolares");
         }
-        else if (moneda == "R")
+        else if (moneda == "R" || moneda == "r")
         {
                 calculo = monto / 23;
                 Debug.Log("Su monto de " + monto + " pesos equivale a " + calculo + " en reales");
             }
-        else if (moneda == "E")
+        else if (moneda == "E" || moneda == "e")
         {
                 calculo = monto / 122;
                 Debug.Log("Su monto de " + monto + " pesos equivale a " + calculo + " en euros");
